@@ -44,8 +44,130 @@ body {
     width: 160px;
 }
 
+#highscore {
+    left: 180px;
+}
 
-w
+#score h2, #score span, #highscore h2, #highscore span{
+    display: block;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 2px;
+    font-size: 16px;
+    height: 21px;
+    margin: 0px;
+    padding: 0px;
+    text-alight: right;
+    padding-right: 15px;
+}
+
+#score span, #highscore span {
+    padding-right: 0px;
+}
+
+#message {
+    position: absolute;
+    display: inline;
+    top: 413px;
+    left: 180px;
+    margin: 0px;
+    padding: 0px;
+    width: 210px;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #fff200;
+    text-align: center;
+}
+
+#message.red{
+    color: red;
+}
+
+span.combo, span.fruits {
+    position: absolute;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    color: #89dfff;
+    font-weight: normal;
+}
+
+#panel, #home {
+    widht: 550px;
+    height: 690px;
+    margin: auto;
+    margin-top: 10px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    padding: 5px 10px 10px 10px;
+    background-color: #000;
+}
+
+#board, #canvas-board, #canvas-paths, #canvas-fruits, #canvas-pacman, #canvas-bubbles, #canvas-ghost-blinky, #canvas-ghost-pinky, #canvas-ghost-inky, #canvas-ghost-clyde{
+    width: 550px;
+    height: 550px;
+    position: absolute;
+}
+
+#canvas-paths {
+    display: none;
+}
+#board{
+    position: relative;
+}
+
+#canvas-lifes, #canvas-level-fruits {
+    height: 30px;
+    top: 670px;
+    position: absolute;
+    z-index: 111111;
+}
+
+#canvas-lifes {
+    width: 120px;
+    left: 50px;
+}
+
+#canvas-level-fruits {
+    widht: 265px;
+    right: 50px;
+}
+
+#control {
+    position: absolute;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    botton: -145px;
+    width: 550px;
+    height: 140px;
+    background-color: #666;
+    opacity: 0.7;
+    display: none;
+}
+
+#control-up, #control-down, #control-up-second, #control-down-second, #control-left, #control-right, #control-up-big, #control-down-big, #control-left-big, #control-right-big {
+    position: absolute;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 64px;
+    cursor: pointer;
+    widht: 64px;
+    height: 64px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
 
 
 
