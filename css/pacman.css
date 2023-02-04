@@ -162,6 +162,12 @@ span.combo, span.fruits {
 }
 
 
+#control-up {
+    top: 0px;
+    left: 70px;
+    background-image: url("../img/move-up.png");
+}
+
 
 
 
