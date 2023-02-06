@@ -200,6 +200,25 @@ span.combo, span.fruits {
     background-image: url("../img/move-right.png");
 }
 
+#control-up-big, #control-down-big, #control-left-big, #control-right-big {
+    position: absolute;
+    opacity: 0.2;
+    margin: auto;
+    padding: 0px;
+    display: none;
+    background-size: 98px;
+    z-index: 99999;
+}
+
+#control-up-big {
+    bottom: 10px;
+    left: 0px;
+    right: 0px;
+    width: 125px;
+    height: 125px;
+    background-image: url("../img/move-up-big.png");
+}
+
 
 
 
